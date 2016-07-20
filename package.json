@@ -1,0 +1,24 @@
+{
+  "name": "gulp-css-single",
+  "version": "1.0.0",
+  "description": "Transform your CSS code.Make it just one line where one rule written in.Especially helpful to the developer who work at NetEase.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com/paoloo1995:gulp-css-single.git"
+  },
+  "author": {
+    "name": "chukuang",
+    "email": "toolve@foxmail.com",
+    "url": "https://github.com/paoloo1995"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "css": "^2.2.1",
+    "gulp-util": "^3.0.7",
+    "through2": "^2.0.1"
+  }
+}
