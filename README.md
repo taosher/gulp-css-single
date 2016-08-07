@@ -11,7 +11,6 @@
 ```
 npm install --save-dev gulp-css-single
 ```
-
 2. gulpfile.js
 ```javascript
 var gulp = require('gulp');
@@ -25,13 +24,12 @@ gulp.task('single', function() {
         .pipe(gulp.dest('dist'));
 });
 ```
-
 3. 命令行：
 ```
 gulp single
 ```
 
-经过以上两个步骤，你可以将当前目录下的```src.css```转换成NEC风格代码,设置缩进为1且“:”后有空格，并输出到```dist```目录中。
+经过以上三个步骤，你可以将当前目录下的```src.css```转换成NEC风格代码,设置缩进为1且“:”后有空格，并输出到```dist```目录中。
 
 其中，配置项可选。格式为：
 ```JavaScript
