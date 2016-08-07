@@ -7,6 +7,7 @@
 3. 返回新代码的Stream给下一个pipe；
 
 使用方法：
+
 1. 从npm上安装本插件：
 ```
 npm install --save-dev gulp-css-single
